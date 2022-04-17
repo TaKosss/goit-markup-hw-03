@@ -223,8 +223,8 @@ img {
 .occupation-list {
     display: flex;
 }
-.occupation-item:not(last-child) {
-    margin-right: 30px;
+.occupation-item + .occupation-item {
+    margin-left: 30px;
 }
 
 .team {
